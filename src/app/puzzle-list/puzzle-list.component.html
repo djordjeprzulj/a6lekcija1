@@ -1,0 +1,11 @@
+<div *ngFor='let p of puzzles'>
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title><h1>{{ p.question }}</h1></mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>{{ p.solution }}</p>
+    </mat-card-content>
+  </mat-card>
+  <br>
+</div>
